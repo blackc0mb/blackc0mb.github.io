@@ -1,3 +1,7 @@
+/*
+1px = 0.0625em
+*/
+
 html {
    font-family: 'Quicksand', sans-serif;
 }
@@ -9,32 +13,167 @@ body {
 
 .header {
    background-color: #00293C;
-   color: white;
-   padding: 1em;
+   color: white;  
    width: 100vw;
 }
 
 .name, .career {
-   display: inline-block;   
+   display: inline-block;
 }
 
 .name {
    font-size: 2.5em;
    font-weight: 700;
-   width: 40vw;
-   padding-right: 1em;
+   width: 49vw;   
 }
 
 .career {
    font-size: 1.5em;
    font-weight: 400;
-   width: 40vw;
-   padding-left: 1em;
+   width: 49vw;
 }
 
 .prof-description {
    background-color: #1E656D;
-   color: white;
-   padding: 1em;
+   color: white;   
+   padding: 1em 0 1em 0;
    width: 100vw;
+   font-size: 1.2em;
+}
+
+.cv {
+   width: 100vw;
+}
+
+.content {
+   width: 60vw;
+   margin-right: auto;
+   margin-left: auto;
+   margin: auto;   
+   text-align: left;         
+}
+
+.content h3 {
+   font-size: 2.1875em;
+   font-weight: 700;
+}
+
+.education {
+   display: inline-block;   
+   width: 40vw;
+   vertical-align: top;   
+}
+
+.style-dt {
+   font-size: 1.3750em;
+   text-transform: uppercase;
+   margin-bottom: 0.75em;
+   margin-top: 1.625em;
+}
+
+.div-image-me {
+   display: inline-block;
+   width: 15vw;
+   margin-top: 2.5em;
+}
+
+.div-image-me img {
+   width: 15vw;
+   border-radius: 50%;
+}
+
+.div-top {
+   margin-top: 3.125em;
+}
+
+.div-bottom {
+   margin-bottom: 3.125em;
+}
+
+.div-top ul {
+   margin-top: 0.75em;
+   padding: 0px;
+}
+
+.cert-skills {
+   margin-left: 0.1875em;
+}
+
+.cert-skills-margin-left {   
+   margin-left: 2.9375em;
+}
+
+.cert-skills-margin-top {
+   margin-top: 0.5em;
+}
+
+.footer {
+   width: 100vw;   
+   margin: 0;
+}
+
+.footer-content {
+   background-color: #00293C;
+   margin: 0;
+}
+
+.footer h3 {
+   font-size: 1.5em;
+   font-weight: 700;
+   color: white;
+   width: 100%;   
+   margin: 0;
+   padding-top: 0.5em;
+}
+
+.footer ul {   
+   margin: 12px 0 0 0;
+   padding: 0;
+}
+
+.footer ul li {
+   margin-top: 8px;
+   display: inline;
+   margin: 1px;
+}
+
+.fa {  
+   padding: 0.5em;
+   text-align: center;
+   text-decoration: none;
+   margin: 5px 2px;   
+   color: white;
+}
+
+@media (max-width:900px) {
+   .name {
+      font-size: 1.2em;
+      padding: 1em 0 1em 0;
+   }
+   .career {
+      font-size: 1em;
+      padding: 1em 0 1em 0;
+   }
+   .content {
+      width: 90vw;
+   }
+   .content h3 {
+      font-size: 1.5625em;      
+   }
+   .education {
+      width: 62vw;
+   }
+   .style-dt {
+      font-size: 1.0625em;
+   }     
+   .prof-description {
+      padding: 1.5em 0 1.5em 0;
+      font-size: 0.9em;
+   }
+   .div-image-me {
+      width: 25%;
+   }
+   .div-image-me img {
+      width: 25vw;
+   }
 }
