@@ -2,7 +2,7 @@
 1px = 0.0625em
 */
 
-html {
+html {   
    font-family: 'Quicksand', sans-serif;
 }
 
@@ -73,12 +73,14 @@ body {
 
 .div-image-me {
    display: inline-block;
-   width: 15vw;
+   height: 160px;
+   width: 160px;
    margin-top: 2.5em;
 }
 
-.div-image-me img {
-   width: 15vw;
+.div-image-me img {   
+   max-width: 100%;
+   height: auto;
    border-radius: 50%;
 }
 
