@@ -18,9 +18,10 @@
         </a>
 
         <ul>
-          <li style="float:right"><a a class="active" href="/">Home</a></li>
-          <li style="float:right"><a class="active" href="About">About</a></li>
-        </ul>
+          {% for item in site.data.samplelist.docs %}
+             <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+          {% endfor %}
+       </ul>
 
         <h2>{{ site.description | default: site.github.project_tagline }}</h2>
 
