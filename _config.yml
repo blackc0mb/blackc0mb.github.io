@@ -1,10 +1,9 @@
+permalink:           :title
+relative_permalinks: true
+
 theme: jekyll-theme-hacker
 title: Tonatiuh Morales
 description: blog under construction
-
-permalink: "/:title/"
-
-highlighter: pygments
 
 defaults:
   -
