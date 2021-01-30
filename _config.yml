@@ -5,15 +5,14 @@ relative_permalinks: true
 
 title: Tonatiuh Morales
 tagline: work in progress
-description: blog under construction
+description: blog under construction...
 paginate: 1
 
 author:
   name: Tonatiuh Morales  
 
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
       type: "posts"
     values:
