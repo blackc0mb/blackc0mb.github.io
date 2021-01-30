@@ -15,10 +15,10 @@
       <div class="container">
         <ul>
           {% for item in site.data.samplelist.docs %}
-             <li style="display: inline; float: right"><a href="{{ item.url }}">{{ item.title }}</a></li>
+             <li style="display: inline; float: right; padding: 14px 16px;"><a href="{{ item.url }}">{{ item.title }}</a></li>
           {% endfor %}
        </ul>
-               
+
         <a id="a-title" href="{{ '/' | relative_url }}">
           <h1>{{ site.title | default: site.github.repository_name }}</h1>          
         </a>
