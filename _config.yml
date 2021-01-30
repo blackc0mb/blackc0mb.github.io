@@ -1,9 +1,15 @@
-permalink:           :title
+theme: jekyll-theme-hacker
+
+permalink: :title
 relative_permalinks: true
 
-theme: jekyll-theme-hacker
 title: Tonatiuh Morales
+tagline: work in progress
 description: blog under construction
+paginate: 1
+
+author:
+  name: Tonatiuh Morales  
 
 defaults:
   -
@@ -13,6 +19,5 @@ defaults:
     values:
       comments: true
 
-paginate: 5
 plugins:
   - jekyll-paginate
