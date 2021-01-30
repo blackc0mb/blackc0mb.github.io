@@ -3,6 +3,9 @@ title: Tonatiuh Morales
 description: blog under construction
 
 permalink: "/:title/"
+
+highlighter: pygments
+
 defaults:
   -
     scope:
