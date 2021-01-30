@@ -1,3 +1,6 @@
+docs_list_title: ACME Documentation
+docs:
+  
 - title: Home
   url: index.html
 
