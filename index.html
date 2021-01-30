@@ -7,7 +7,7 @@ title: Home
 {% for post in paginator.posts %}
   <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
   <p class="author">
-    <span class="date">This page was last updated at {{ post.date | date: "%a, %b %d, %Y" }}</span>
+    <span class="date">Post published at {{ post.date | date: "%a, %b %d, %Y" }}</span>
   </p>
   <div class="content">
     {{ post.content }}
