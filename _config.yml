@@ -1,19 +1,8 @@
 theme: minima
 
 title: Tonatiuh Morales
-author:
-  name: blackC0mb
-  email: myemail@mail.com
 description: blog under construction...
 paginate: 5
-
-minima:
-  date_format: "%b %-d, %Y"
-
-  # generate social links in footer
-  social_links:
-    twitter: cshkrs
-    github:  blackc0mb
 
 defaults:
   - scope:
@@ -24,5 +13,3 @@ defaults:
 
 plugins:
   - jekyll-paginate
-  - jekyll-feed
-  - jekyll-seo-tag  
