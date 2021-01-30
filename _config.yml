@@ -1,7 +1,6 @@
 theme: jekyll-theme-slate
 title: Tonatiuh Morales
 description: blog under construction
-show_downloads: "true"
 
 paginate: 5
 plugins:
