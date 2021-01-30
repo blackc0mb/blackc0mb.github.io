@@ -1,11 +1,7 @@
 theme: jekyll-theme-hacker
 title: Tonatiuh Morales
 description: blog under construction
-
-paginate: 5
-plugins:
-  - jekyll-paginate
-  
+breadcrumbs: true
 defaults:
   # _posts
   - scope:
@@ -13,3 +9,7 @@ defaults:
       type: posts
     values:
       show_date: true
+
+paginate: 5
+plugins:
+  - jekyll-paginate
