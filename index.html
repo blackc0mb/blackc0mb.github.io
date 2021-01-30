@@ -3,11 +3,11 @@ layout: default
 title: Home
 ---
 
-<h2>{{ site.data.samplelist.docs_list_title }}</h2>
 <ul>
-   {% for item in site.data.samplelist.docs %}
-      <li><a href="{{ item.url }}">{{ item.title }}</a></li>
-   {% endfor %}
+  {% assign mypages = site.pages | sort: "order" %}
+    {% for page in mypages %}
+    <li><a href="{{ page.url | absolute_url }}">{{ page.title }}</a></li>
+    {% endfor %}
 </ul>
 
 <!-- This loops through the paginated posts -->
