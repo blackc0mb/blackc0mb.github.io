@@ -3,17 +3,6 @@ layout: default
 title: Home
 ---
 
-<!-- 
-<header>
-  <nav>
-    <ul>
-      {% for link in site.data.navigation %}
-      <li><a href="{{ link.url }}">{{ link.title }}</a></li>
-      {% endfor %}
-    </ul>
-  </nav>  
-</header> -->
-
 <!-- This loops through the paginated posts -->
 {% for post in paginator.posts %}
   <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>

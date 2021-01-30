@@ -13,3 +13,5 @@ defaults:
 
 plugins:
   - jekyll-paginate
+
+gem "github-pages", group: :jekyll_plugins
