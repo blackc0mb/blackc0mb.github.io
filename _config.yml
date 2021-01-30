@@ -1,4 +1,6 @@
 theme: jekyll-theme-slate
+title: Tonatiuh Morales
+
 paginate: 5
 plugins:
   - jekyll-paginate
