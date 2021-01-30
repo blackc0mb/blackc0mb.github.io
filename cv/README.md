@@ -1,2 +1,2 @@
 # cv
-Práctica creación de cv
+My resume
