@@ -1,17 +1,30 @@
-theme: jekyll-theme-hacker
-
 title: Tonatiuh Morales
 description: Personal blog under construction...
-paginate: 5
 
-defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      comments: true
+title: Tonatiuh Morales
+author:
+  name: blackc0mb
+  email: your-email@domain.com
+  description: > # this means to ignore newlines until "show_excerpts:"
+  Powered in github pages with minima theme
+  
+show_excerpts: false # set to true to show excerpts on the homepage  
+
+minima:
+  date_format: "%b %-d, %Y"
+
+  # generate social links in footer
+  social_links:
+    twitter: cshhkrs
+    github:  blackc0mb
+
+header_pages:
+  - about.md
+
+theme: minima
 
 plugins:
-  - jekyll-paginate
+ - jekyll-feed
+ - jekyll-seo-tag
 
 gem "github-pages", group: :jekyll_plugins
