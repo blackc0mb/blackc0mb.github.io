@@ -11,7 +11,7 @@ minima:
 
   # generate social links in footer
   social_links:
-    twitter: cshhkrs
+    twitter: cshkrs
     github:  blackc0mb
 
 header_pages:
@@ -22,5 +22,3 @@ theme: minima
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
-
-gem "github-pages", group: :jekyll_plugins
