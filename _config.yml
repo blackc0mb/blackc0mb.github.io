@@ -9,7 +9,6 @@ show_excerpts: false # set to true to show excerpts on the homepage
 
 minima:
   date_format: "%b %-d, %Y"
-  skin: dark
 
   social_links:
     twitter: cshkrs
