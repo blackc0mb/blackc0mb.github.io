@@ -1,12 +1,8 @@
 title: Tonatiuh Morales
-description: Personal blog under construction...
-
-title: Tonatiuh Morales
 author:
   name: blackc0mb
   email: your-email@domain.com
-  description: > # this means to ignore newlines until "show_excerpts:"
-  Powered in github pages with minima theme
+  description: Powered in github pages with minima theme
   
 show_excerpts: false # set to true to show excerpts on the homepage  
 
