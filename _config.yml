@@ -1,19 +1,21 @@
 title: Tonatiuh Morales
-
+author:
+  name: John Smith
+  email: "john.smith@foobar.com"
 description: > # this means to ignore newlines until "show_excerpts:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
   
-show_excerpts: true # set to true to show excerpts on the homepage  
+show_excerpts: true # set to true to show excerpts on the homepage
 
 minima:
   date_format: "%b %-d, %Y"
-  skin: dark
+  skin: solarized-dark
 
   social_links:
     twitter: cshkrs
-    github:  blackc0mb    
+    github:  blackc0mb
 
 header_pages:
   - about.md
