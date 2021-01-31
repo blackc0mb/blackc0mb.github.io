@@ -1,9 +1,10 @@
 title: Tonatiuh Morales
 author:
-  name: GitHub User
-  email: your-email@domain.com
+  name: blackc0mb
+  email: tobedefina@gmail.com
 description: > # this means to ignore newlines until "show_excerpts:"
-  Tonatiuh Morales blog, Systems Engineer, web developer enthusiast.
+  Tonatiuh Morales blog, Systems Engineer, web developer enthusiast, SAP Teach lead. Open to help & collaborate.
+  This site was powered by github pages with minima theme
   
 show_excerpts: true # set to true to show excerpts on the homepage
 
