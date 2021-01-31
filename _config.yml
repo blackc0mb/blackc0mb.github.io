@@ -3,8 +3,8 @@ author:
   name: blackc0mb
   email: tonatiuh.moralesd@gmail.com
 description: > # this means to ignore newlines until "show_excerpts:"
-  Tonatiuh Morales blog, Systems Engineer, web developer enthusiast, SAP Teach lead. Open to help & collaborate.
-  This site was powered by github pages with minima theme.
+  Systems Engineer, web developer enthusiast, SAP Teach lead. Open to help & collaborate.
+  This site was powered by github pages with jekyll minima theme.
   
 show_excerpts: true # set to true to show excerpts on the homepage
 
@@ -13,14 +13,13 @@ minima:
   skin: solarized-dark
 
   social_links:
-    twitter: jekyllrb
-    github:  jekyll
+    twitter: cshkrs
+    github:  blackc0mb
 
 header_pages:
   - about.md
 
 theme: minima
 
-plugins:
- - jekyll-feed
+plugins: 
  - jekyll-seo-tag
