@@ -1,7 +1,7 @@
 title: Tonatiuh Morales
 author:
-  name: John Smith
-  email: john.smith@foobar.com
+  name: GitHub User
+  email: your-email@domain.com
 description: > # this means to ignore newlines until "show_excerpts:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
@@ -14,8 +14,8 @@ minima:
   skin: solarized-dark
 
   social_links:
-    twitter: cshkrs
-    github:  blackc0mb
+    twitter: jekyllrb
+    github:  jekyll
 
 header_pages:
   - about.md
