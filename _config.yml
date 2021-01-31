@@ -21,5 +21,6 @@ header_pages:
 
 theme: minima
 
-plugins: 
+plugins:
+ - jekyll-feed
  - jekyll-seo-tag
