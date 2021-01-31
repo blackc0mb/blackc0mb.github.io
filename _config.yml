@@ -1,10 +1,9 @@
 title: Tonatiuh Morales
-author:
+author: This site was powered by github pages with jekyll minima theme.
   name: blackc0mb
-  email: tonatiuh.moralesd@gmail.com
+#  email: myemail@gmail.com
 description: > # this means to ignore newlines until "show_excerpts:"
-  Systems Engineer, web developer enthusiast, SAP Teach lead. Open to help & collaborate.
-  This site was powered by github pages with jekyll minima theme.
+  Systems Engineer, web developer enthusiast, SAP Teach lead. Open to help & collaborate.  
   
 show_excerpts: true # set to true to show excerpts on the homepage
 
