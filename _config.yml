@@ -1,3 +1,6 @@
 title: Tonatiuh Morales
 description: Powered by GitHub Pages and Hacker theme.
+
+show_excerpts: true
+
 theme: jekyll-theme-hacker
