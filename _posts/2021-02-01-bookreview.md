@@ -5,4 +5,4 @@ layout: post
 
 Some sample content...
 
-[Back](./)
+[Back](/)
