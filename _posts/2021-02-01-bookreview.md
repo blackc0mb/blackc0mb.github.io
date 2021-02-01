@@ -1,6 +1,6 @@
 ---
-title: My second post
 layout: post
+title: "My second post"
 ---
 
 Some sample content...
