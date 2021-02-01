@@ -1,3 +1,4 @@
 ---
+Title: Home
 layout: default
 ---
