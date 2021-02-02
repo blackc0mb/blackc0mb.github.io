@@ -15,6 +15,12 @@
     <!-- HEADER -->
     <div id="header_wrap" class="outer">
         <header class="inner">
+          <ul>
+            {% for item in site.data.samplelist.docs %}
+               <li style="display: inline; float: right; padding: 14px 16px;"><a href="{{ item.url }}">{{ item.title }}</a></li>
+            {% endfor %}
+         </ul>
+                   
           {% if site.github.is_project_page %}
             <a id="forkme_banner" href="{{ site.github.repository_url }}">View on GitHub</a>
           {% endif %}
