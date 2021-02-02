@@ -2,7 +2,7 @@ nav:
   
   - title: Home
     url: /
-    icon: "fa fa-home"
+    icon: fa fa-home
   - title: About
     url: about
-    icon: "fa fa-user-circle"
+    icon: fa fa-user-circle
