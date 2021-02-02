@@ -1,7 +1,7 @@
-<ul class="site-nav"">
+<ul class="site-nav">
    {% for item in site.data.samplelist.nav %}
-     <li style="float: left;">
-        <a href="{{ item.url }}" style="display: block; color: white; text-align: center; padding: 10px; text-decoration: none;">{{ item.title }}</a>
+     <li class="site-nav-li">
+        <a href="{{ item.url }}">{{ item.title }}</a>
       </li>
    {% endfor %}
  </ul>

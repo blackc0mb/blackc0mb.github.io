@@ -11,3 +11,19 @@
    position: absolute;
    right: 15px;
 }
+
+.site-nav-li {
+   float: left;
+}
+
+.site-nav-li a {
+   display: block;
+   color: white;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+}
+
+.site-nav-li a:hover {
+   background-color: #111;
+}
