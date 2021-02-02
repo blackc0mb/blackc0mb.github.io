@@ -1,6 +1,6 @@
 nav:
   
-  - title: Home
+  - title: <i class="fa fa-home"></i>
     url: /
-  - title: About 
+  - title: <i class="fa fa-user-circle"></i>
     url: about
