@@ -1,6 +1,5 @@
-docs:
-
-- title: Home
-  url: /
-- title: About 
-  url: about
+nav:
+  - title: Home
+    url: /
+  - title: About 
+    url: about

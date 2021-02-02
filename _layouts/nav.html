@@ -1,5 +1,5 @@
-nav:
-   - title: Home
-     url: /
-   - title: About
-     url: about      
+<ul>
+   {% for item in include.nav %}
+     <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+   {% endfor %}
+ </ul>
