@@ -2,3 +2,12 @@
 ---
 
 @import "{{ site.theme }}";
+
+.site-nav {
+   list-style-type: none;
+   overflow: hidden;
+   margin: 0;
+   padding: 0;
+   position: absolute;
+   right: 15px;
+}
