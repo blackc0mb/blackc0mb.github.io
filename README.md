@@ -1,4 +1,4 @@
-# blackc0mb.github.com
+# blackc0mb
 Tonatiuh's blog
 
 ** under construction **
