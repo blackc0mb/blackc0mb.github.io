@@ -3,8 +3,7 @@ author:
   name: blackc0mb
   #email: your-email@domain.com
 description: > # this means to ignore newlines until "show_excerpts:"
-  Aprendiz de desarrollo Web, pero le se mas a las plataformas SAP, si necesitas algo de ello con gusto te puedo apoyar.
-  Sitio generado con Github Pages con tema minima  
+  Web developer practitioner, but I you need help with SAP platforms you can ask me and I’m glad to help you. |This site was generated with Github Pages and minima theme.
 
 show_excerpts: false # set to true to show excerpts on the homepage
 
