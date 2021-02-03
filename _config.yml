@@ -1,6 +1,6 @@
 title: Tonatiuh Morales
 author:
-  name: blackc0mb
+  name: Tonatiuh Morales
   #email: your-email@domain.com
 description: > # this means to ignore newlines until "show_excerpts:"
   Web developer practitioner, but I you need help with SAP platforms you can ask me and I’m glad to help you. This site was generated with Github Pages and minima theme.
@@ -36,4 +36,4 @@ exclude:
   - Gemfile.lock
   - LICENSE
   - README.md
-  - CNAME 
+  - CNAME
