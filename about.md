@@ -15,9 +15,3 @@ title: About
 - 😄 Pronouns: he/him
 - ⚡ Fun fact: I love sports (football, baseball, soccer) and sometimes jogging 😊, also rock music
 - 🏈 Philadelphia Eagles
-
----
-### How to reach me:
-- [Twitter @cshkrs](https://twitter.com/cshkrs)
-- [Linkedin](https://www.linkedin.com/in/t-morales)
-- [Telegram](https://t.me/cshkrs)
