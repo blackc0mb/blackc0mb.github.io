@@ -2,8 +2,9 @@ title: Tonatiuh Morales
 author:
   name: Tonatiuh Morales
   #email: your-email@domain.com
-description: > # this means to ignore newlines until "show_excerpts:"
-  Web developer practitioner, but I you need help with SAP platforms you can ask me and I’m glad to help you. This site was generated with Github Pages and minima theme.
+description:
+  Newbie web developer, but I you need help with SAP platforms you can ask me for help and I will gladly help you.
+  This site was generated with Github Pages and minima theme.
 
 show_excerpts: false # set to true to show excerpts on the homepage
 
