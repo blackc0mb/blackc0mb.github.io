@@ -1,5 +1,5 @@
 ---
-title: My second post
+title: WIP
 layout: post
 author: Tmorales
 tag: various
