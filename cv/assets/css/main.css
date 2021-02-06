@@ -1,12 +1,4 @@
 :root {
-   /*
-   --general-font-color-1: white;
-   --general-font-color-2: #00293C;
-   --general-background-color: #00293C;
-   --timeline-color: #00293C;
-   --nav-background-color: #1E656D;
-   */
-
    --general-font-color-1: white;
    --general-font-color-2: #0F1F38;
    --general-background-color: #0F1F38;
@@ -38,8 +30,8 @@ body {
   margin: 0;
 }
 
-.about, .experience, .certifications, .skills, .footer {
-  padding: 4rem 0 0 0;  
+.about, .experience, .certifications, .skills, .footer {  
+  margin-top: 3rem;
   text-align: center;
   color: var(--general-font-color-2);
 }
@@ -133,13 +125,9 @@ img {
 }
 
 .footer {
-  background-color: var(--footer-background-color);
-  padding: 1.5em 0 3em 0;
+  background-color: var(--footer-background-color);  
+  padding: 0.5em 0 0.5em 0;
   color: var(--general-font-color-1);
-}
-
-.footer-container {
-  margin: 3em 0 0 0;
 }
 
 .footer-social-link {
@@ -157,8 +145,8 @@ img {
 /* The actual timeline (the vertical ruler) */
 .experience-timeline {
   position: relative;
-  max-width: 1200px;
-  margin: 0 auto;
+  max-width: 1200px;  
+  margin: 0 auto 3rem auto;
 }
  
 /* The actual timeline (the vertical ruler) */
