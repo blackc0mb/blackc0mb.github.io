@@ -1,9 +1,11 @@
+/* 95 */
 :root {
    --general-font-color-1: white;
    --general-font-color-2: #0F1F38;
    --general-background-color: #0F1F38;
+   --general-background-color-hover: #1B4B5A;
    --timeline-color: #0F1F38;
-   --nav-background-color: #1B4B5A;
+   --nav-background-color: #1B4B5A;   
    --footer-background-color: #8E7970;
 
    --general-font-family: 'Quicksand', sans-serif;
@@ -43,6 +45,18 @@ body {
 
 h1 {
   font-size: var(--h1-font-size);
+  padding: 20px;
+  margin: 10px 0 0 0;
+}
+
+span {
+  padding: 20px;
+  margin: 0;
+}
+
+h1:hover, span:hover {  
+  background-color: var(--general-background-color-hover);
+  border-radius: 50px;  
 }
 
 h2 {
@@ -64,7 +78,6 @@ p {
   overflow: hidden;
   background-color: var(--nav-background-color);
   font-size: 1.5em;
-
   top: 0;
   position: fixed;
   width: 100%;
@@ -80,7 +93,7 @@ p {
   color: var(--general-font-color-1);
   padding: 14px 10px;
   text-decoration: none;
-  text-align: center;
+  text-align: center;  
 }
 
 .menu-list li a:hover {
@@ -94,7 +107,7 @@ p {
   color: var(--general-font-color-1);
 }
 
-.home-info{
+.home-info {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -121,8 +134,12 @@ img {
 .home-social-link {
   display: inline-flex;
   color: white;
-  margin: 30px 10px 10px 10px;
+  margin: 10px 10px 10px 10px;
   text-decoration: none;
+}
+
+.home-social-link:hover {
+  color: var(--footer-background-color);
 }
 
 .footer {
@@ -136,6 +153,15 @@ img {
   color: var(--general-font-color-1);
   margin: 0 0.8em 0 0.8em;
   text-decoration: none;  
+}
+
+.footer-social-link:hover {
+  color: var(--general-background-color-hover);
+}
+
+.footer-social-email:hover {
+  color: var(--general-background-color-hover);
+  font-weight: bolder;
 }
 
 /* Timeline source w3schools - Ini */
