@@ -38,3 +38,5 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+  
+environment: production
