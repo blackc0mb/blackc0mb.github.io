@@ -19,3 +19,19 @@ sudo apt full-upgrade
 ```
 df -h
 ```
+**Opens** the configuration settings menu
+```
+raspi-config
+```
+**check** the status of the wireless connection
+```
+ifconfig
+```
+**reboot** immediately
+```
+reboot
+```
+**opens** the text file specified
+```
+nano [yourfile]
+```
