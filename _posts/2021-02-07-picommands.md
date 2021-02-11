@@ -1,7 +1,7 @@
 ---
 title: Common Raspberry PI commands
 layout: post
-author: Tmorales
+author: TMorales
 tag: commands
 ---
 
