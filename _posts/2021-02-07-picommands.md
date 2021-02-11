@@ -1,7 +1,7 @@
 ---
 title: Common Raspberry PI commands
 layout: post
-date: 2021-02-10 23:11 -0600
+date: 2021-02-10 23:11
 author: TMorales
 tag: commands
 ---
