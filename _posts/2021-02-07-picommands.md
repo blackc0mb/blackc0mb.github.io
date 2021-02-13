@@ -37,3 +37,9 @@ reboot
 ```
 nano [yourfile]
 ```
+---
+#### Install VS Code
+```
+sudo apt update
+sudo apt install code -y
+```
