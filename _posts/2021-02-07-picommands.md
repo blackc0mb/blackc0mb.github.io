@@ -6,9 +6,8 @@ date: 2021-02-10 23:20
 author: TMorales
 tag: commands
 ---
-
 #### Useful commands to manage Raspberry PI
-
+---
 **Update** the system package list
 ```
 sudo apt update
