@@ -8,7 +8,7 @@
     {%- include header.html -%}
 
     <div id="search-demo-container">
-      <input type="search" id="search-input" placeholder="search...">
+      <input type="search" id="search-input" placeholder="buscar...">
       <ul id="results-container"></ul>
     </div>    
 
@@ -28,10 +28,10 @@
         resultsContainer: document.getElementById('results-container'),
         json: '{{ site.baseurl }}/search.json',
         searchResultTemplate: '<li><a href="{url}?query={query}" title="{desc}">{title}</a></li>',
-        noResultsText: 'No results found',
+        noResultsText: 'No se encontraron resultados',
         limit: 10,
         fuzzy: false,
-        exclude: ['Welcome']
+        exclude: ['Bienvenido(a)']
       })
     </script>
 
