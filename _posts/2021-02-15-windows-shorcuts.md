@@ -9,25 +9,25 @@ tag: shorcuts
 #### Useful windows shorcuts
 ---
 **Open** file explorer
-<kbd>Windows key</kbd>+<kbd>E</kbd>
+`Windows key`+`E`
 
 **Open** settings
-<kbd>Windows key</kbd>+<kbd>I</kbd>
+`Windows key`+`I`
 
 **Lock** your PC or switch accounts settings
-<kbd>Windows key</kbd>+<kbd>L</kbd>
+`Windows key`+`L`
 
 **Open** the run dialog box
-<kbd>Windows key</kbd>+<kbd>R</kbd>
+`Windows key`+`R`
 
 **Take** a screenshot of part of your sceen
-<kbd>Windows key</kbd>+<kbd>Shift</kbd>+<kbd>S</kbd>
+`Windows key`+`Shift`+`S`
 
 **Open** the quick link menu
-<kbd>Windows key</kbd>+<kbd>X</kbd>
+`Windows key`+`X`
 
 **Temporarily** peek at the desktop
-<kbd>Windows key</kbd>+<kbd>,</kbd>
+`Windows key`+`,`
 
 ---
 👇 Here you can find the original source and most usefull windows shorcuts\
