@@ -3,6 +3,7 @@ title: Windows shorcuts
 layout: post
 description: Useful windows shorcuts
 date: 2021-02-15 22:20
+modified_date: 2021-02-20 21:55
 author: TMorales
 tag: shorcuts
 ---
@@ -30,5 +31,5 @@ tag: shorcuts
 `Windows key`+`,`
 
 ---
-Here you can find the original source and most useful windows shorcuts\
-[Keyboard shortcuts in Windows](https://support.microsoft.com/en-us/windows/keyboard-shortcuts-in-windows-dcc61a57-8ff0-cffe-9796-cb9706c75eec)
+Here 👇 you can find the original source and most useful windows shorcuts\
+🔗 *[Keyboard shortcuts in Windows](https://support.microsoft.com/en-us/windows/keyboard-shortcuts-in-windows-dcc61a57-8ff0-cffe-9796-cb9706c75eec)*
