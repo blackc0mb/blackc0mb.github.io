@@ -3,7 +3,7 @@ title: Windows shortcuts
 layout: post
 description: Useful windows shortcuts
 date: 2021-02-15 22:20
-modified_date: 2021-02-20 21:55
+modified_date: 2021-02-20 22:27
 author: TMorales
 tag: shortcuts
 ---
@@ -42,10 +42,10 @@ tag: shortcuts
 **Maximize** the window
 `Windows key`+`up arrow`
 
-**Maximize** the app or desktop window to the left side of the screen
+**Maximize** desktop window (or app) to the left side of the screen
 `Windows key`+`left arrow`
 
-**Maximize** the app or desktop window to the right side of the screen
+**Maximize** desktop window (or app) to the right side of the screen
 `Windows key`+`right arrow`
 
 ---
