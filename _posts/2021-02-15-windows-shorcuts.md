@@ -3,7 +3,7 @@ title: Windows shortcuts
 layout: post
 description: Useful windows shortcuts
 date: 2021-02-15 22:20
-modified_date: 2021-02-20 22:27
+modified_date: 2021-06-03 00:22
 author: TMorales
 tag: shortcuts
 ---
@@ -50,4 +50,4 @@ tag: shortcuts
 
 ---
 Here 👇 you can find the original source and most useful windows shortcuts\
-🔗 *[Keyboard shortcuts in Windows](https://support.microsoft.com/en-us/windows/keyboard-shortcuts-in-windows-dcc61a57-8ff0-cffe-9796-cb9706c75eec)*
+🔗 <a href="https://support.microsoft.com/en-us/windows/keyboard-shortcuts-in-windows-dcc61a57-8ff0-cffe-9796-cb9706c75eec" target="_blank"><i>Keyboard shortcuts in Windows</i></a>
