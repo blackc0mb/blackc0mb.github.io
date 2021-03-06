@@ -10,7 +10,7 @@ tag: resources
 #### Here you can find some useful development resources that I have found
 ---
 CSS Styles\
-🔗 *[Box shadows](https://box-shadow.dev/)*\
+🔗 <a href="https://box-shadow.dev/" target="_blank">Box shadows</a>
 🔗 *[CSS Reference](https://cssreference.io/)*\
 🔗 *[CSS Effects](https://emilkowalski.github.io/css-effects-snippets/)*\
 🔗 *[CSS Shadow Generator](https://neumorphism.io/)*\
