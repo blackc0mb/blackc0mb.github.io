@@ -3,7 +3,7 @@ title: Windows shortcuts
 layout: post
 description: Useful windows shortcuts
 date: 2021-02-15 22:20
-modified_date: 2021-06-03 00:22
+modified_date: 2021-03-06 00:22
 author: TMorales
 tag: shortcuts
 ---
