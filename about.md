@@ -14,4 +14,4 @@ title: About
 - 💬 Ask me about SAP-ABAP, SAP Business Intelligence & Manage SAP Environments
 - 😄 Pronouns: he/him
 - ⚡ Fun fact: I love sports (football, baseball, soccer) and sometimes jogging 😊, also rock music
-- 🏈 Philadelphia Eagles | ⚾ Atlanta Braves | ⚽ Santos Laguna, México
+- 🏈 Philadelphia Eagles, ⚾ Atlanta Braves, ⚽ Santos Laguna, México
