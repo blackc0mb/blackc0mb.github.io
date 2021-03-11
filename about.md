@@ -5,7 +5,7 @@ title: About
 # Welcome! 👋
 
 ## Hi Tonatiuh here
-### Developer in my freetime, learning web development, father, husband
+### Developer in my freetime, father, husband
 
 - 🔭 I’m currently working on web development skills
 - 🌱 I’m currently learning web development (HTML, CSS, JS), python
