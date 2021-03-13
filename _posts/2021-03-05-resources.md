@@ -3,7 +3,7 @@ title: Development resources
 layout: post
 description: Useful development resources
 date: 2021-03-06 00:05
-modified_date: 2021-03-06 00:17
+modified_date: 2021-03-12 21:30
 author: TMorales
 tag: resources
 ---
@@ -22,5 +22,6 @@ General references\
 🔗 <a href="https://andreasbm.github.io/web-skills/" target="_blank">Web skills</a>
 
 ---
-Avatar references\
+Icons, avatars references\
+🔗 <a href="https://thenounproject.com/" target="_blank">Icons and Photos For Everything</a>
 🔗 <a href="https://getavataaars.com/" target="_blank">Avatar generator</a>
