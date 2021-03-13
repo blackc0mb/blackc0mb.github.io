@@ -23,5 +23,5 @@ General references\
 
 ---
 Icons, avatars references\
-🔗 <a href="https://thenounproject.com/" target="_blank">Icons and Photos For Everything</a>
+🔗 <a href="https://thenounproject.com/" target="_blank">Icons and Photos For Everything</a>\
 🔗 <a href="https://getavataaars.com/" target="_blank">Avatar generator</a>
