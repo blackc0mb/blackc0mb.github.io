@@ -3,6 +3,7 @@ title: Common Raspberry PI commands
 layout: post
 description: Useful commands to manage Raspberry PI
 date: 2021-02-10 23:20
+modified_date: 2021-03-13 22:30
 author: TMorales
 tag: commands
 ---
@@ -16,6 +17,11 @@ sudo apt update
 ```
 sudo apt full-upgrade
 ```
+**Free** up space (downloaded packages)
+```
+sudo apt clean
+sudo apt-get clean
+```
 **Check** the available space
 ```
 df -h
@@ -24,15 +30,15 @@ df -h
 ```
 raspi-config
 ```
-**check** the status of the wireless connection
+**Check** the status of the wireless connection
 ```
 ifconfig
 ```
-**reboot** immediately
+**Reboot** immediately
 ```
 reboot
 ```
-**opens** the text file specified
+**Opens** the text file specified
 ```
 nano [yourfile]
 ```
