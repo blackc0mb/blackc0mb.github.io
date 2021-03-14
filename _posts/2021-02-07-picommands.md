@@ -17,7 +17,7 @@ sudo apt update
 ```
 sudo apt full-upgrade
 ```
-**Free** up space (downloaded packages)
+**Free up** space (downloaded packages)
 ```
 sudo apt clean
 sudo apt-get clean
