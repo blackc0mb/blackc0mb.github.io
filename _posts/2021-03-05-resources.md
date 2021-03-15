@@ -3,7 +3,7 @@ title: Development resources
 layout: post
 description: Useful development resources
 date: 2021-03-06 00:05
-modified_date: 2021-03-13 22:10
+modified_date: 2021-03-14 18:10
 author: TMorales
 tag: resources
 ---
@@ -19,7 +19,8 @@ CSS Styles\
 
 ---
 General references\
-🔗 <a href="https://andreasbm.github.io/web-skills/" target="_blank">Web skills</a>
+🔗 <a href="https://andreasbm.github.io/web-skills/" target="_blank">Web skills</a>\
+🔗 <a href="https://animate.style/" target="_blank">Animations library</a>
 
 ---
 Icons, avatars references\
