@@ -34,6 +34,10 @@ raspi-config
 ```
 ifconfig
 ```
+**Display** the hostname of the system
+```
+hostname
+```
 **Reboot** immediately
 ```
 reboot
