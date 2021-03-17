@@ -3,7 +3,7 @@ title: Common Raspberry PI commands
 layout: post
 description: Useful commands to manage Raspberry PI
 date: 2021-02-10 23:20
-modified_date: 2021-03-13 22:30
+modified_date: 2021-03-16 21:30
 author: TMorales
 tag: commands
 ---
