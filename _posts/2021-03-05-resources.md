@@ -3,7 +3,7 @@ title: Development resources
 layout: post
 description: Useful development resources
 date: 2021-03-06 00:05
-modified_date: 2021-03-15 16:40
+modified_date: 2021-03-18 22:40
 author: TMorales
 tag: resources
 ---
