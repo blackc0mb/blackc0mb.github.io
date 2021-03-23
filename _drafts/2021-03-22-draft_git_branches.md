@@ -16,7 +16,7 @@ I consider myself a beginner working with **Git** and **GitHub**, so this steps 
 1. Check whether a **branch** exists in the repository  
 
     `git branch -a`  
-    `  `  
+
     _`# Output (something like this):`_  
     `* main`  
     `remotes/origin/HEAD -> origin/main`  
@@ -28,7 +28,7 @@ I consider myself a beginner working with **Git** and **GitHub**, so this steps 
 2. Create the new **branch**  
 
     `git checkout -b hello-world_new_feature`  
-    ` `  
+
     _`# Output (something like this):`_  
     `Switched to a new branch 'hello-world_new_feature'`  
 
@@ -49,15 +49,14 @@ I consider myself a beginner working with **Git** and **GitHub**, so this steps 
 
         _`# Stage changes`_  
         `git add README.md`  
-        ` `  
+
         _`# Check the status`_  
         `git status`  
-        ` `  
+
         _`# Output (something like this):`_  
         `On branch hello-world_new_feature`  
         `Changes to be committed:`  
         `(use "git reset HEAD <file>..." to unstage)`  
-        ` `  
             `modified:   README.md`  
     
     - _Commit_ the changes:  
@@ -73,7 +72,7 @@ I consider myself a beginner working with **Git** and **GitHub**, so this steps 
     Now if everything works fine, you have to switch to the **master** or **main branch**, to do this run the following command:  
 
     `git checkout main`  
-    ` `  
+
     _`# In this example, the 'master' branch is main`_  
     _`# Output (something like this):`_  
     `Switched to branch 'main'`  
@@ -82,7 +81,7 @@ I consider myself a beginner working with **Git** and **GitHub**, so this steps 
     Once you are in the **master** or **main branch**, just run the **merge** command:  
 
     `git merge hello-world_new_feature --no-ff`  
-    ` `  
+
     _`# The --no-ff command part, retains the commit messages`_  
     _`# Output (something like this):`_  
     `Merge made by the 'recursive' strategy.`  
@@ -92,7 +91,7 @@ I consider myself a beginner working with **Git** and **GitHub**, so this steps 
 6. The last step is _push_ the changes to **GitHub**  
 
     `git push`  
-    ` `  
+
     _`# Output (something like this):`_  
     `Enumerating objects: 6, done.`  
     `Counting objects: 100% (6/6), done.`  
