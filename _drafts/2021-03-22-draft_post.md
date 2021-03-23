@@ -1,5 +1,5 @@
 ---
-title: Working with branches in Git & Github
+title: Example with branches in Git & Github
 layout: post
 date: 2021-03-22 21:40
 modified_date: 2021-03-22 21:40
