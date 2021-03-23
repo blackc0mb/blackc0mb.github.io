@@ -25,7 +25,7 @@ I consider myself a beginner working with **Git** and **GitHub**, so this steps 
     remotes/origin/readme-edits  
     ```  
 
-    The expected result is that there is not previously created **branch**.  
+    It is important to check if there is a previously **branch** created.  
 
 2. Create the new **branch**  
 
