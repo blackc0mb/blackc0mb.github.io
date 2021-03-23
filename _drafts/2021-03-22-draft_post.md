@@ -1,12 +1,12 @@
 ---
-title: Short guide working with branches in Git & Github
+title: Working with branches in Git & Github
 layout: post
 date: 2021-03-22 21:40
 modified_date: 2021-03-22 21:40
 author: TMorales
 tag: GitHub
 ---
-#### Working with branches in Git & Github  
+#### Short guide working with branches in Git & Github  
 ---
 I consider myself a beginner working with **Git** and **GitHub**, so this steps is a good start (or practice) to work in a new feature or experiments in any **GitHub** repository.  
 
