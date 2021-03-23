@@ -15,13 +15,15 @@ I consider myself a beginner working with **Git** and **GitHub**, so this steps 
 #### Steps  
 1. Check whether a **branch** exists in the repository  
 
-    `git branch -a`  
+    ```bash
+    git branch -a  
 
-    _`# Output (something like this):`_  
-    `* main`  
-    `remotes/origin/HEAD -> origin/main`  
-    `remotes/origin/main`  
-    `remotes/origin/readme-edits`  
+    # Output (something like this):  
+    * main  
+    remotes/origin/HEAD -> origin/main  
+    remotes/origin/main  
+    remotes/origin/readme-edits  
+    ```
 
     The expected result is that there is not previously created **branch**.  
 
