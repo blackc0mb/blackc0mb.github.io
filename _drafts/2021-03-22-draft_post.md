@@ -15,7 +15,7 @@ I consider myself a beginner working with **Git** and **GitHub**, so this steps 
 #### Steps  
 1. Check whether a **branch** exists in the repository  
 
-    ```bash
+    ```bash  
     git branch -a  
 
     # Output (something like this):  
@@ -23,16 +23,18 @@ I consider myself a beginner working with **Git** and **GitHub**, so this steps 
     remotes/origin/HEAD -> origin/main  
     remotes/origin/main  
     remotes/origin/readme-edits  
-    ```
+    ```  
 
     The expected result is that there is not previously created **branch**.  
 
 2. Create the new **branch**  
 
-    `git checkout -b hello-world_new_feature`  
+    ```bash  
+    git checkout -b hello-world_new_feature  
 
-    _`# Output (something like this):`_  
-    `Switched to a new branch 'hello-world_new_feature'`  
+    # Output (something like this):  
+    Switched to a new branch 'hello-world_new_feature'  
+    ```  
 
     > 💡 In case that the **branch** name exists, the git command will show you a message error  
 
@@ -40,70 +42,80 @@ I consider myself a beginner working with **Git** and **GitHub**, so this steps 
     
     Now you can modify the files, add, delete and so on in this new **branch**, for this example I only modified the content of the **README.md** file with the following lines:  
 
-    `# hello-world`  
+    ```markdown
+    # hello-world  
 
-    `Hello Everyone!`  
-    `This repo is just to practice.`  
+    Hello Everyone!  
+    This repo is just to practice.  
+    ```
 
 4. _Stage_ and _commit_ the new changes  
 
     - _Stage_ the changes and check the **branch** status:  
 
-        _`# Stage changes`_  
-        `git add README.md`  
+        ```bash  
+        # Stage changes  
+        git add README.md  
 
-        _`# Check the status`_  
-        `git status`  
+        # Check the status  
+        git status  
 
-        _`# Output (something like this):`_  
-        `On branch hello-world_new_feature`  
-        `Changes to be committed:`  
-        `(use "git reset HEAD <file>..." to unstage)`  
-            `modified:   README.md`  
+        # Output (something like this):  
+        On branch hello-world_new_feature  
+        Changes to be committed:  
+        (use "git reset HEAD <file>..." to unstage)  
+            modified:   README.md  
+        ```
     
     - _Commit_ the changes:  
 
-        `git commit -m "README.md file modified"`  
+        ```bash
+        git commit -m "README.md file modified"  
 
-        _`# Output (something like this):`_  
-        `[hello-world_new_feature e7b0423] README.md file modified`  
-        `1 file changed, 1 insertion(+), 3 deletions(-)`  
+        # Output (something like this):  
+        [hello-world_new_feature e7b0423] README.md file modified  
+        1 file changed, 1 insertion(+), 3 deletions(-)  
+        ```  
 
 5. _Merge_ the changes  
 
     Now if everything works fine, you have to switch to the **master** or **main branch**, to do this run the following command:  
 
-    `git checkout main`  
+    ```bash  
+    git checkout main  
 
-    _`# In this example, the 'master' branch is main`_  
-    _`# Output (something like this):`_  
-    `Switched to branch 'main'`  
-    `Your branch is up to date with 'origin/main'.`  
+    # In this example, the 'master' branch is main  
+    # Output (something like this):  
+    Switched to branch 'main'  
+    Your branch is up to date with 'origin/main'.  
 
     Once you are in the **master** or **main branch**, just run the **merge** command:  
 
-    `git merge hello-world_new_feature --no-ff`  
+    git merge hello-world_new_feature --no-ff  
 
-    _`# The --no-ff command part, retains the commit messages`_  
-    _`# Output (something like this):`_  
-    `Merge made by the 'recursive' strategy.`  
-    `README.md | 4 +---`  
-    `1 file changed, 1 insertion(+), 3 deletions(-)`  
+    # The --no-ff command part, retains the commit messages  
+    # Output (something like this):  
+    Merge made by the 'recursive' strategy.  
+    README.md | 4 +---  
+    1 file changed, 1 insertion(+), 3 deletions(-)  
+    ```  
 
 6. The last step is _push_ the changes to **GitHub**  
 
-    `git push`  
+    ```bash
+    git push  
 
-    _`# Output (something like this):`_  
-    `Enumerating objects: 6, done.`  
-    `Counting objects: 100% (6/6), done.`  
-    `Delta compression using up to 4 threads`  
-    `Compressing objects: 100% (3/3), done.`  
-    `Writing objects: 100% (4/4), 421 bytes | 140.00 KiB/s, done.`  
-    `Total 4 (delta 1), reused 0 (delta 0)`  
-    `remote: Resolving deltas: 100% (1/1), done.`  
-    `To https://github.com/<your username>/hello-world.git`  
-    `2ec5ed4..8c3979e  main -> main`  
+    # Output (something like this):  
+    Enumerating objects: 6, done.  
+    Counting objects: 100% (6/6), done.  
+    Delta compression using up to 4 threads  
+    Compressing objects: 100% (3/3), done.  
+    Writing objects: 100% (4/4), 421 bytes | 140.00 KiB/s, done.  
+    Total 4 (delta 1), reused 0 (delta 0)  
+    remote: Resolving deltas: 100% (1/1), done.  
+    To https://github.com/<your username>/hello-world.git  
+    2ec5ed4..8c3979e  main -> main  
+    ```  
 
     Done❗, you should see the final changes in your **main** or **master branch**.
 
