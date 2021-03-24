@@ -3,7 +3,7 @@ title: Windows shortcuts
 layout: post
 description: Useful windows shortcuts
 date: 2021-02-15 22:20
-modified_date: 2021-03-22 21:00
+modified_date: 2021-03-23 19:40
 author: TMorales
 tag: shortcuts
 ---
@@ -14,6 +14,9 @@ tag: shortcuts
 
 **Open** file explorer
 `Windows key`+`E`
+
+**Open** game bar (screen capture tool)
+`Windows key`+`G`
 
 **Open** settings
 `Windows key`+`I`
