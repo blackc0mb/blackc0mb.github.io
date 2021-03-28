@@ -2,7 +2,7 @@
 title: Example with branches in Git & GitHub
 layout: post
 date: 2021-03-22 22:05
-modified_date: 2021-03-27 20:25
+modified_date: 2021-03-28 13:15
 author: TMorales
 tag: GitHub
 ---
@@ -25,7 +25,7 @@ I consider myself a beginner working with **Git** and **GitHub**, so this steps 
     remotes/origin/readme-edits  
     ```  
 
-    It is important to check if there is a previously **branch** created.  
+    For this example there is only the **main branch** and it is important to check if there is a previously **branch** created.  
 
 2. Create the new **branch**  
 
@@ -93,12 +93,13 @@ I consider myself a beginner working with **Git** and **GitHub**, so this steps 
 
     git merge hello-world_new_feature --no-ff  
 
-    # The --no-ff command part, retains the commit messages  
     # Output (something like this):  
     Merge made by the 'recursive' strategy.  
     README.md | 4 +---  
     1 file changed, 1 insertion(+), 3 deletions(-)  
     ```  
+
+    > 💡 The _--no-ff_ command part, retains the commit messages  
 
 6. The last step is _push_ the changes to **GitHub**  
 
@@ -117,7 +118,8 @@ I consider myself a beginner working with **Git** and **GitHub**, so this steps 
     2ec5ed4..8c3979e  main -> main  
     ```  
 
-    Done❗, you should see the final changes in your **main** or **master branch**.
+    Done❗  
+    You should see the final changes in your **main** or **master branch**.
 
 ### Conclusion  
 
