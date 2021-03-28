@@ -123,4 +123,7 @@ I consider myself a beginner working with **Git** and **GitHub**, so this steps 
 
 ### Conclusion  
 
-When you are working in a project (in a company, freelance or even in an open source project, and so on), it is very important to follow the best practices to maintain stable the original source code, so this steps described above is a little piece how you could work safe and keep the original source code without any risk for unintentional changes.
+When you are working in a project (in a company, freelance or even in an open source project, and so on), it is very important to follow the best practices to maintain stable the original source code, so this steps described above is a little piece how you could work safe and keep the original source code without any risk for unintentional changes.  
+
+
+Thanks for reading! **TM**  
