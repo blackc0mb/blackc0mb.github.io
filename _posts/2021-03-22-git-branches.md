@@ -1,12 +1,12 @@
 ---
-title: Example with branches in Git & Github
+title: Example with branches in Git & GitHub
 layout: post
 date: 2021-03-22 22:05
-modified_date: 2021-03-25 21:40
+modified_date: 2021-03-27 20:25
 author: TMorales
 tag: GitHub
 ---
-#### Short guide working with branches in Git & Github  
+#### Short guide working with branches in Git & GitHub  
 ---
 I consider myself a beginner working with **Git** and **GitHub**, so this steps is a good start (or practice) to work in a new feature or experiments in any **GitHub** repository.  
 
