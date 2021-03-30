@@ -56,4 +56,7 @@ tag: shortcuts
 
 ---
 Here 👇 you can find the original source and most useful windows shortcuts\
-🔗 <a href="https://support.microsoft.com/en-us/windows/keyboard-shortcuts-in-windows-dcc61a57-8ff0-cffe-9796-cb9706c75eec" target="_blank"><i>Keyboard shortcuts in Windows</i></a>
+🔗 <a href="https://support.microsoft.com/en-us/windows/keyboard-shortcuts-in-windows-dcc61a57-8ff0-cffe-9796-cb9706c75eec" target="_blank"><i>Keyboard shortcuts in Windows</i></a>  
+
+
+Thanks for reading! **TM**  

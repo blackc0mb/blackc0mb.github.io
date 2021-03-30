@@ -51,4 +51,7 @@ nano [yourfile]
 ```
 sudo apt update
 sudo apt install code -y
-```
+```  
+
+
+Thanks for reading! **TM**  
