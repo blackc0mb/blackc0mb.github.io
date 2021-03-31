@@ -4,7 +4,7 @@ layout: post
 date: 2021-03-22 22:05
 modified_date: 2021-03-28 13:15
 author: TMorales
-tag: GitHub
+tag: GitHub Git
 ---
 #### Short guide working with branches in Git & GitHub  
 ---
