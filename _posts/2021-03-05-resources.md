@@ -3,7 +3,7 @@ title: Development resources
 layout: post
 description: Useful development resources
 date: 2021-03-06 00:05
-modified_date: 2021-03-24 21:30
+modified_date: 2021-04-01 16:00
 author: TMorales
 tag: resources
 ---
@@ -17,7 +17,8 @@ CSS<br/>
 🔗 <a href="https://csslayout.io/" target="_blank">Collections of layouts and patterns in CSS</a><br/>
 🔗 <a href="https://www.shapedivider.app/" target="_blank">Custom Shape Divider</a><br/>
 🔗 <a href="https://uigradients.com/" target="_blank">Beautiful colored gradients</a><br/>
-🔗 <a href="https://bgjar.com/" target="_blank">Free svg background generator</a>
+🔗 <a href="https://bgjar.com/" target="_blank">Free svg background generator</a><br/>
+🔗 <a href="https://animista.net/" target="_blank">CSS Animations on Demand</a>
 
 ---
 General references<br/>
@@ -33,5 +34,6 @@ Icons, avatars references<br/>
 🔗 <a href="https://fontawesome.com/" target="_blank">Vector Icons</a><br/>
 🔗 <a href="https://getavataaars.com/" target="_blank">Avatar generator</a><br/>  
 
+<br/>
 
 Thanks for reading! **TM**  
