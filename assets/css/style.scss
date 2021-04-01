@@ -11,6 +11,7 @@
   padding: 1em;
   margin: 1em auto;  
   border: 1px solid lightgrey;
+  border-radius: 5px;
 
   @media screen and (min-width: $on-large) {
     max-width: calc(#{$content-width} - (#{$spacing-unit} * 2));
