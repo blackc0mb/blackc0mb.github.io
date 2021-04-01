@@ -32,8 +32,6 @@ Icons, avatars references<br/>
 🔗 <a href="https://ionicons.com/" target="_blank">Open Source Icons</a><br/>
 🔗 <a href="https://iconify.design/" target="_blank">Thousands of icons, one unified framework</a><br/>
 🔗 <a href="https://fontawesome.com/" target="_blank">Vector Icons</a><br/>
-🔗 <a href="https://getavataaars.com/" target="_blank">Avatar generator</a><br/>  
-
-<br/>
+🔗 <a href="https://getavataaars.com/" target="_blank">Avatar generator</a><br/><br/>
 
 Thanks for reading! **TM**  
