@@ -47,16 +47,23 @@ h1 {
   font-size: var(--h1-font-size);
   padding: 20px;
   margin: 10px 0 0 0;
+  transition: all 0.8s;
 }
 
 span {
   padding: 20px;
   margin: 0;
+  transition: all 0.5s;
 }
 
-h1:hover, span:hover {  
+h1:hover {
+  transform: scale(1.1);
+}
+
+span:hover {
   background-color: var(--general-background-color-hover);
-  border-radius: 50px;  
+  border-radius: 50px;
+  transform: scale(1.1);
 }
 
 h2 {
@@ -93,11 +100,13 @@ p {
   color: var(--general-font-color-1);
   padding: 14px 10px;
   text-decoration: none;
-  text-align: center;  
+  text-align: center;
+  transition: all 0.3s;
 }
 
 .menu-list li a:hover {
   background-color: #111;
+  transform: scale(1.2);
 }
 
 .home-container {   
@@ -136,10 +145,11 @@ img {
   color: white;
   margin: 10px 10px 10px 10px;
   text-decoration: none;
+  transition: all 0.3s;
 }
 
 .home-social-link:hover {
-  color: var(--footer-background-color);
+  transform: translate(0px, -5px);
 }
 
 .footer {
@@ -152,11 +162,17 @@ img {
   display: inline-flex;
   color: var(--general-font-color-1);
   margin: 0 0.8em 0 0.8em;
-  text-decoration: none;  
+  text-decoration: none;
+  transition: all 0.3s;
 }
 
 .footer-social-link:hover {
   color: var(--general-background-color-hover);
+  transform: translate(0px, -5px);
+}
+
+.footer-social-email {
+  transition: all 0.5s;
 }
 
 .footer-social-email:hover {
@@ -255,11 +271,20 @@ img {
  
 /* The actual content */
 .experience-content {
-  padding: 20px 30px;
+  padding: 15px 30px 20px 30px;
   background-color: var(--timeline-color);
   color: var(--general-font-color-1);
   position: relative;
-  border-radius: 6px;   
+  border-radius: 6px;
+  transition: all 0.5s;
+}
+
+.experience-content p {
+  text-align: left;
+}
+
+.experience-content:hover {
+  transform: scale(1.05);
 }
  
 /* Media queries - Responsive timeline on screens less than 600px wide */
