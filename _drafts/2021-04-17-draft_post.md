@@ -42,7 +42,7 @@ Para aplicar la métrica por tipo de documento, se tiene la siguiente fórmula:
    (Tipo de Documento (#) * Multiplicador) + … + (Tipo de Documento (#) * Multiplicador)
 ```  
 
-Bajo esta fórmula, pudieras realizar un cálculo estimado por cada tipo de documento, siempre y cuando conocieras tu volumetría de cada uno, pero realmente solo tendrías un estimado y lo que no te especifican es vs que mides si estás bien o mal (pequeño detalle ¿no?), entonces sin temor a equivocarme el resultado de la fórmula tendrías que multiplicarlo por un precio de lista y ese sería tu costo.  
+Bajo esta fórmula, pudieras realizar un cálculo estimado por cada tipo de documento, siempre y cuando conocieras tu volumetría de cada uno, pero realmente solo tendrías un estimado y lo que no te especifican es vs que mides, es decir si estás bien o mal (pequeño detalle ¿no?), entonces sin temor a equivocarme el resultado de la fórmula tendrías que multiplicarlo por un precio de lista y ese sería tu costo.  
 
 Lo que SAP te recomienda es inclinarte con su programa de adopción de este tipo de licenciamiento, el cual lo ha llamado **SAP Digital Access Adoption Program (DAAP)** y como paso inicial ofrece un servicio llamado **SAP Digital Access evaluation service** el cual especifica es sin costo adicional. Cabe mencionar que la fecha de vigencia del **DAAP** fue extendida al **31-dic-2021**, posterior a esa fecha ya no estará disponible este programa de adopción.  
 
