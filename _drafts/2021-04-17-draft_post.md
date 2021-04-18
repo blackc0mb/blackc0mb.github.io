@@ -58,10 +58,10 @@ SAP provee un proceso de estimación de volumen de documentos (los 9 mencionados
 - SAP S/4HANA - [2999672](https://launchpad.support.sap.com/#/notes/2999672)  
 - SAP ECC – [2992090](https://launchpad.support.sap.com/#/notes/2992090)
 
-> 💡 EnLas notas mencionadas en este post son las más recientes al mes de abril 2021.  
+> 💡 Las notas mencionadas en este post son las más recientes al mes de abril 2021.  
 
 Como en toda nota de SAP, primero es leer detenidamente la documentación dentro del portal oficial [SAP LaunchPad](https://launchpad.support.sap.com/) y posteriormente continuar con lo siguiente:  
-1. Identificar los sistemas relevantes o mejor dicho tus sistemas CORE: S/4HANA o ECC.  
+1. Identificar los sistemas relevantes o mejor dicho tus sistemas **CORE**: **S/4HANA** o **ECC**.  
 2. Implementar la nota a través de la SNOTE típicamente en ambiente de desarrollo, claro de acuerdo con tu versión y validando bien los prerrequisitos.  
 3. Identificar las interfases y procesos, así como los usuarios técnicos que los ejecutan.  
 4. Ejecutar el reporte ABAP en el ambiente a realizar la medición (debería ser tu ambiente productivo) y claro previamente haber realizado el transporte en este ambiente.  
