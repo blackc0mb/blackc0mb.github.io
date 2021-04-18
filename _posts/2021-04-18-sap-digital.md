@@ -68,7 +68,7 @@ Como en toda nota de SAP, primero es leer detenidamente la documentación dentro
 4. Ejecutar el reporte ABAP en el ambiente a realizar la medición (debería ser tu ambiente productivo) y claro previamente haber realizado el transporte en este ambiente.  
 
 #### Conclusión.  
-Este esquema de licenciamiento realmente no suena ni fácil ni amigable para las empresas, pero realmente si planeas continuar operando con tu sistema(s) SAP, si es recomendable evaluar lo que esta impulsando SAP en este programa, esto para mitigar el riesgo de que posteriormente puedas caer en algún incumplimiento que pueda detonar un costo adicional.  
+Este esquema de licenciamiento realmente no suena ni fácil ni amigable para los clientes, pero realmente si planeas continuar operando con tu sistema(s) SAP, si es recomendable evaluar lo que esta impulsando SAP en este programa, esto para mitigar el riesgo de que posteriormente puedas caer en algún incumplimiento que pueda detonar un costo adicional.  
 
 Para más información puedes visitar el sitio oficial de [SAP Digital Access](https://discover.sap.com/digital-access/en-us/index.html).  
 
