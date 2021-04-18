@@ -1,8 +1,8 @@
 ---
 title: SAP Digital Access
 layout: post
-date: 2021-04-18 14:48
-modified_date: 2021-04-18 14:48
+date: 2021-04-18 15:00
+modified_date: 2021-04-18 15:00
 author: TMorales
 tag: SAP
 ---
@@ -22,17 +22,18 @@ SAP establece que son 9 los tipos de documento involucrados que son sujetos a me
 Esta métrica de licenciamiento solo aplica para la creación de documentos, por lo tanto, las acciones de: lectura, actualización o borrado de documentos no se toman en cuenta.  
 
 Para esquematizar lo mencionado anteriormente, podemos resumirlo de la siguiente manera:  
-| Tipos de documentos | Multiplicador |
-| ------------------- | ------------- |
-| Documentos de ventas *️⃣ | 1.0x |
-| Documentos de facturas *️⃣ | 1.0x |
-| Documentos de compras *️⃣ | 1.0x |
-| Documentos de servicio y mantenimiento | 1.0x |
-| Documentos de manufactura | 1.0x |
-| Documentos de gestión de calidad | 1.0x |
-| Documentos de gestión de tiempo | 1.0x |
-| Documentos de finanzas *️⃣ | 0.2x |
-| Documentos de materiales *️⃣ | 0.2x |
+
+| Tipos de documentos | Multiplicador |  
+| ------------------- | ------------- |  
+| Documentos de ventas *️⃣ | 1.0x |  
+| Documentos de facturas *️⃣ | 1.0x |  
+| Documentos de compras *️⃣ | 1.0x |  
+| Documentos de servicio y mantenimiento | 1.0x |  
+| Documentos de manufactura | 1.0x |  
+| Documentos de gestión de calidad | 1.0x |  
+| Documentos de gestión de tiempo | 1.0x |  
+| Documentos de finanzas *️⃣ | 0.2x |  
+| Documentos de materiales *️⃣ | 0.2x |  
 
 > 💡 *️⃣ Son los tipos de documento que se miden a nivel detalle.  
 
