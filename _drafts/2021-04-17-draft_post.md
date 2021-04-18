@@ -1,8 +1,8 @@
 ---
 title: SAP Digital Access
 layout: post
-date: 2021-04-17 23:36
-modified_date: 2021-04-17 23:36
+date: 2021-04-18 14:48
+modified_date: 2021-04-18 14:48
 author: TMorales
 tag: SAP
 ---
@@ -10,16 +10,16 @@ tag: SAP
 
 Es un nuevo esquema de licenciamiento de SAP, que tomó auge a raíz del aumento en la interconectividad con sistemas **CORE** de SAP en las empresas tales como **ECC** y **S/4HANA**, lo cual a su vez trajo que ésta conectividad promueva voluntaria o involuntariamente el uso de **accesos indirectos**, y según especificado por SAP, en este esquema de licenciamiento ayudará a las empresas a normalizar su licenciamiento sobre todo si consideran que están en riesgo de cobro adicional por el uso de **accesos indirectos** dentro de su ecosistema SAP.  
 
-> 💡 **Accesos indirectos** se refiere a los movimientos generados por procesos automáticos tales como RPA (Robotic Process Automation), IoT, interfases, aplicaciones de terceros (así como las hechas en casa), soluciones Cloud que no sean de SAP.  
+> 💡 **Accesos indirectos** se refiere a los movimientos generados por procesos automáticos tales como RPA (Robotic Process Automation), IoT, interfases, aplicaciones de terceros (así como las hechas en casa), soluciones Cloud que no sean de SAP entre otros.  
 
 #### Consideraciones de este esquema.  
 
 SAP establece que son 9 los tipos de documento involucrados que son sujetos a medición, de los cuales tenemos que:  
-- Son 3 tipos de documento que su métrica de cobro es a nivel detalle de documento (item level).  
-- 7 tipos de documento se calculan con un multiplicador de 1.0x.  
-- 2 tipos de documento relacionados con Finanzas se calculan a una quinta parte 0.2x, pero a nivel detalle de documento (item level).  
+- Son 3 tipos que su métrica de cobro es a nivel detalle de documento (item level).  
+- 7 tipos se calculan con un multiplicador de 1.0x.  
+- 2 tipos relacionados con Finanzas y que se calculan a una quinta parte 0.2x, pero a nivel detalle de documento (item level).  
 
-Este cálculo de licenciamiento solo aplica para la creación de documentos, por lo tanto, las acciones de: lectura, actualización o borrado de documentos no se toman en cuenta.  
+Esta métrica de licenciamiento solo aplica para la creación de documentos, por lo tanto, las acciones de: lectura, actualización o borrado de documentos no se toman en cuenta.  
 
 Para esquematizar lo mencionado anteriormente, podemos resumirlo de la siguiente manera:  
 | Tipos de documentos | Multiplicador |
