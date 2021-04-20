@@ -6,7 +6,7 @@ modified_date: 2021-04-18 15:00
 author: TMorales
 tag: SAP
 ---
-#### Que es el SAP Digital Access?  
+#### ¿Que es el SAP Digital Access?  
 
 Es un nuevo esquema de licenciamiento de SAP, que tomó auge a raíz del aumento en la interconectividad con sistemas **CORE** de SAP en las empresas tales como **ECC** y **S/4HANA**, lo cual a su vez trajo que ésta conectividad promueva voluntaria o involuntariamente el uso de **accesos indirectos**, y según especificado por SAP, en este esquema de licenciamiento ayudará a las empresas a normalizar su licenciamiento sobre todo si consideran que están en riesgo de cobro adicional por el uso de **accesos indirectos** dentro de su ecosistema SAP.  
 
