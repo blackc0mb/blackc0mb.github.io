@@ -54,38 +54,15 @@ body {
 
 h1 {
   font-size: var(--h1-font-size);
-  /*padding: 20px;/*
-  /*margin: 10px 0 0 0;*/
   padding: 0px;
   margin: 0px;
-  /*transition: all 0.8s;*/
 }
-
-/*
-h1:hover {
-  transform: scale(1.1);
-}
-*/
 
 .subtitle {
   margin: 0px;
   font-weight: 300;
   font-size: var(--subtitle-font-size);
 }
-
-/*
-span {
-  padding: 20px;
-  margin: 0;
-  transition: all 0.5s;
-}
-
-span:hover {
-  background-color: var(--general-background-color-hover);
-  border-radius: 50px;
-  transform: scale(1.1);
-}
-*/
 
 h2 {
   font-size: var(--h2-font-size);
@@ -106,18 +83,6 @@ nav {
 }
 
 .menu-list {
-  /*
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: var(--nav-background-color);
-  font-size: 1.5em;
-  top: 0;
-  position: fixed;
-  width: 100%;
-  */
-
   display: flex;
   list-style-type: none;
   width: 100%;
@@ -128,21 +93,10 @@ nav {
 }
 
 .menu-list li {
-  /*float: left;*/
-  /*width: 2.5em;*/
   text-decoration: none;
 }
 
 .menu-list li a {
-  /*
-  display: block;
-  color: var(--general-font-color-1);
-  padding: 14px 10px;
-  text-decoration: none;
-  text-align: center;
-  transition: all 0.3s;
-  */
-
   display: block;
   padding: 10px 30px 10px 30px;
   text-decoration: none;
@@ -151,7 +105,6 @@ nav {
 }
 
 .menu-list li a:hover {
-  /*background-color: #111;*/
   transform: scale(1.2);
 }
 
@@ -189,39 +142,12 @@ nav {
   font-size: var(--h2-font-size);
 }
 
-/*
-.home-container {
-  height: 100vh;
-  align-items: center;
-  background-color: var(--general-background-color);
-  color: var(--general-font-color-1);
-}
-
-.home-info {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: max-content;
-  text-align: center;
-}
-*/
-
 .home-social-link {
   margin: 0px 30px 10px 0px;
   color: #F3F3F3;
   font-size: var(--social-font-size);
   transition: all 0.3s;
 }
-
-/*
-.home-social-link {
-  display: inline-flex;
-  color: #F3F3F3;
-  margin: 10px;
-  text-decoration: none;
-  transition: all 0.3s;
-}
-*/
 
 .home-social-link:hover {
   transform: translate(0px, -5px);
@@ -258,7 +184,6 @@ img {
 }
 
 .footer-social-link:hover {
-  /*color: var(--general-background-color-hover);*/
   transform: translate(0px, -5px);
 }
 
@@ -267,7 +192,6 @@ img {
 }
 
 .footer-social-email:hover {
-  /*color: var(--general-background-color-hover);*/
   font-weight: bolder;
 }
 
@@ -428,17 +352,14 @@ img {
 }
 
 .certifications-grid-item {
-  /*background-color: rgba(255, 255, 255, 0.8);*/
   background-color: #F3F3F3;
   box-shadow: 5px 5px 20px var(--timeline-color);
-  /*border: 0px solid var(--timeline-color);*/
   border-radius: 6px;
   padding: 20px;
   text-align: left;
 }
 
 .skills-grid-item {
-  /*background-color: rgba(255, 255, 255, 0.8);*/
   background-color: #F3F3F3;
   border-top: 4px solid var(--timeline-color);
   padding: 0px 20px 0px 20px;
@@ -473,50 +394,52 @@ img {
     height: 250px;
     width: 250px;
   }
-
-  /*
-  .menu-list li {
-    float: left;
-    width: 3em;
-  }
-  */ 
 }
 
 @media only screen and (max-width: 1000px) {
   .hamburger {
-      display: block;
-      border: 0;
-      background-color: transparent;
-      color:var(--general-font-color-1);
-      font-size: 30px;
-      margin: 20px;
-      align-self: flex-end;
+    display: block;
+    border: 0;
+    background-color: transparent;
+    color:var(--general-font-color-1);
+    font-size: 30px;
+    margin: 20px;
+    align-self: flex-end;
   }
 
   .menu-list {
-      display: none;
-      background-color: var(--nav-background-color);
-      margin: 0ppx;
-      padding-left: 20px;
+    display: none;
+    background-color: var(--nav-background-color);
+    margin: 0px;
+    margin-bottom: 20px;
+    transition: all 0.3s ease-in-out;
   }
 
   .menu-list li a {
-    padding: 0px 10px;
+    padding: 0px 25px;
+    text-align: right;
+    transition: none;
+  }
+
+  .menu-list li a:hover {
+    transform: none;
   }
 
   ul.show {
-      display: block;
+    display: block;
   }
 
   nav {
-      display: flex;
-      flex-direction: column-reverse;
-      background-color: var(--nav-background-color);
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: var(--nav-background-color);
   }
 
+  /*
   .logo {
-      display: none;
+    display: none;
   }
+  */
 
   .home-info {
     margin-left: 30px;
