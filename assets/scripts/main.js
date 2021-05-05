@@ -4,7 +4,6 @@ link_about = document.getElementById('link-about'),
 about_divider = document.getElementById("about-divider");
 
 //Toggle language declarations
-//let check_lang = document.getElementById("check-lang");
 let link_toggle_lang = document.getElementById("link-toggle-lang");
 
 let label_en = {
@@ -44,30 +43,6 @@ link_about.addEventListener('click', function () {
    }
 }, false);
 
-//Toggle language function
-// check_lang.addEventListener('click', function () {
-//    let lang = {};
-//    let myLabels = document.querySelectorAll("[id^='l_']");
-//    let current_lang = "";
-
-//    current_lang = check_lang.checked === true ? "en" : "es";
-
-//    switch (current_lang) {
-//       case "es":
-//          lang = label_es;
-//          break;
-
-//       case "en":
-//          lang = label_en;
-//          break;
-//    };
-
-//    for (let i = 0; i < myLabels.length; i++) {
-//       myLabels[i].innerHTML = lang[myLabels[i].id];
-//    };
-
-// });
-
 link_toggle_lang.addEventListener('click', function () {
    let lang = {};
    let myLabels = document.querySelectorAll("[id^='l_']");
@@ -92,22 +67,3 @@ link_toggle_lang.addEventListener('click', function () {
    };
 
 });
-
-// const show_about = document.getElementById("text-about");
-// const link_about = document.getElementById("link-about");
-// const about_divider = document.getElementById("about-divider");
-
-// show_about.style.display = "none";
-// about_divider.style.display = "none";
-
-// link_about.addEventListener('click', (ev) => {
-//    if (show_about.style.display === "none") {
-//       show_about.style.display = "block";
-//       about_divider.style.display = "block";
-      
-//       show_about.style.transition = "all 1s ease-in-out";
-//    } else {
-//       show_about.style.display = "none";
-//       about_divider.style.display = "none";      
-//    }
-// });
