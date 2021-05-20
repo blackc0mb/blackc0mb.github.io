@@ -5,6 +5,8 @@ about_divider = document.getElementById("about-divider")
 
 //Toggle language declarations
 let link_toggle_lang = document.getElementById("link-toggle-lang")
+const ENGLISH = "en",
+ESPANOL = "es"
 
 const label_en = {
    l_blog: "Blog & Notes",
@@ -46,17 +48,17 @@ link_about.addEventListener('click', function () {
 link_toggle_lang.addEventListener('click', function () {
    let lang = {}
    let myLabels = document.querySelectorAll("[id^='l_']")
-   let current_lang = "es"
+   let current_lang = ESPANOL
 
-   current_lang = link_toggle_lang.innerHTML.includes("English") === true ? "en" : "es"
+   current_lang = link_toggle_lang.innerHTML.includes("English") === true ? ENGLISH : ESPANOL
 
    switch (current_lang) {
-      case "es":
+      case ESPANOL:
          link_toggle_lang.innerHTML = 'English'
          lang = label_es
          break
 
-      case "en":
+      case ENGLISH:
          link_toggle_lang.innerHTML = 'Español'
          lang = label_en
          break
