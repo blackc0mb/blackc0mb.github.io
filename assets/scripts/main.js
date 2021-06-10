@@ -46,13 +46,15 @@ function retLanguage(lang) {
    const language = {
       'English': {
          l_blog: "Blog & Notes",
+         l_hashnode: "Hashnode Blog",
          l_password: "Password Generator",
          l_about: "About",
          l_about_content: "Hello 👋, my name is Tonatiuh Morales and currently I work 💻 mainly with SAP platforms for several years, also I'm a developer in my free time (at least I try it). </br>Thanks for visiting! 🙌",
          l_link_toggle_lang: "Español"
       },
       'Español': {
-         l_blog: "Notas / Blog",
+         l_blog: "Notas & Blog",
+         l_hashnode: "Blog en Hashnode",
          l_password: "Generador de contraseñas",
          l_about: "Sobre mi",
          l_about_content: "Hola 👋, mi nombre es Tonatiuh Morales y actualmente trabajo 💻 principalmente con plataformas SAP desde hace ya varios años, también le hago un poco al desarrollo de software en mi tiempo libre (al menos lo intento).</br>Gracias por visitar! 🙌",
