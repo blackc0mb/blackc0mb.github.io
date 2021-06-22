@@ -39,7 +39,6 @@ link_toggle_lang.addEventListener('click', function () {
    for (let i = 0; i < myLabels.length; i++) {
       myLabels[i].innerHTML = lang[myLabels[i].id]
    }
-
 })
 
 function retLanguage(lang) {
